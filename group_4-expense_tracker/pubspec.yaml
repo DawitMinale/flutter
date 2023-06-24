@@ -1,0 +1,47 @@
+name: expense_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.2
+  equatable: ^2.0.5
+  fl_chart: ^0.63.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  font_awesome_flutter: ^10.4.0
+  intl: ^0.18.1
+  package_info: ^2.0.2
+  path_provider: ^2.0.15
+  percent_indicator: ^4.2.3
+  shared_preferences: ^2.1.2
+  sqflite: ^2.2.8+4
+  uuid: ^3.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
